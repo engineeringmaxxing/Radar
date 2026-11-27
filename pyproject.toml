@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hearthsense"
+version = "0.2.0"
+description = "Experimental UART radar acquisition and offline activity demonstrator"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pyserial>=3.5", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+hearthsense = "radar.cli:main"
+
+[tool.setuptools]
+packages = ["radar", "processing", "visualisation"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
