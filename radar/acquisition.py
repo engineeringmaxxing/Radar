@@ -1,5 +1,5 @@
 """Serial discovery and timestamped, byte-exact capture."""
-
+ 
 from contextlib import ExitStack
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
