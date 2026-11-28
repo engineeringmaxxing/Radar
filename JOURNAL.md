@@ -3,7 +3,7 @@ title: "mmWave Radar Fall Detection Device "
 github: "https://github.com/engineeringmaxxing/Radar"
 description: "Utilising an advanced mmWave Radar chip to generate an estimated projection of the human body to prevent falls.\nI am building this as current surveillance systems in aged care capture audio and video in a manner that is an invasion of privacy for those in aged care facilities. Hopefully by creating this, it can serve as a pioneering technology in  the fall-detection space."
 created_at: "2026-11-17"
-total_time: "20h"
+total_time: "32h"
 ---
 
 # November 17, 2026: November 18th, 2026: Architected the system
@@ -35,3 +35,14 @@ This was really difficult for an amateur programmer like myself... I had to deve
 ![](https://fabricate.hackclub-assets.com/aeb5476e437ce668b78420d30a3824bb7150d74033e8d816f6bceb8a6c6ed018/image-png/image.png)
 
 **Total time spent: 15h**
+
+# November 28, 2026: Architected more of the code for the system
+<!-- fabricate:entry 4107 -->
+
+I finished the binary packet and TLV decoding, and a bunch of my errors solely came from me misinterpreting the data I had to input for these respective systems. I kept on running the code and it returned unfamiliar errors that I had not seen up until this point as I have been dealing with complex topics that I haven't had the opportunity to grasp until now. After looking over the content again, I realised that it was a trivial issue and I quickly rectified it. 
+
+![](https://fabricate.hackclub-assets.com/e87fd574ba8da3a5dca9fae5c4104990ac9f76a5018fccab15617b272405526f/image-png/image.png)
+
+I expect there'll be a LOT more code to handle - I want to start getting the CAD enclosures sorted and get this project shipped ASAP because this is being drawn out quite long...
+
+**Total time spent: 12h**
